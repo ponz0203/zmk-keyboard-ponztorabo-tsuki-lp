@@ -59,11 +59,11 @@
 
         SHORTCUT {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans              &trans              &trans         &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans              &kp RG(UP_ARROW)    &trans         &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RG(LEFT_ARROW)  &kp RG(TAB)         &kp RG(RIGHT)  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans              &kp RG(DOWN_ARROW)  &trans         &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans              &trans              &trans         &trans  &trans
             >;
         };
     };
