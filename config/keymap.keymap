@@ -2,7 +2,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
-#include <dt-bindings/zmk/pointing.h>
 
 / {
     combos {
@@ -28,13 +27,13 @@
             >;
         };
 
-        layer_1 {
+        NUMBER {
             bindings = <
-&trans  &trans  &trans  &trans     &trans     &trans                  &trans  &trans     &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &trans     &trans     &trans                  &trans  &trans     &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &mkp RCLK  &mkp LCLK  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans
-&trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                     &trans        &trans        &trans        &trans        &trans         &trans
+&trans  &trans  &trans  &trans  &trans  &trans                     &kp ESCAPE    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp DELETE     &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &kp TAB       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp BACKSPACE  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp EQUAL  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH      &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans        &trans        &trans        &kp PLUS      &kp ASTERISK   &trans
             >;
         };
 
