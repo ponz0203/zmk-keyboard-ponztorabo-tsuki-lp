@@ -22,8 +22,8 @@
 &trans  &trans      &trans    &trans    &trans     &trans                                                       &trans       &trans  &trans     &trans          &trans       &trans
 &trans  &kp Q       &kp W     &kp E     &kp R      &kp T                                                        &kp Y        &kp U   &kp I      &kp O           &kp P        &trans
 &trans  &kp A       &kp S     &kp D     &kp F      &kp G        &trans               &trans                     &kp H        &kp J   &kp K      &kp L           &lt 3 ENTER  &trans
-&trans  &kp Z       &kp X     &kp C     &kp V      &kp B        &kp UP_ARROW         &mt LANGUAGE_1 LANGUAGE_2  &kp N        &kp M   &kp COMMA  &kp DOT         &lt 2 MINUS  &trans
-&trans  &kp ESCAPE  &kp LGUI  &kp LALT  &kp LCTRL  &lt 1 SPACE  &mt LEFT_SHIFT DOWN  &lt 3 LEFT                 &lt 1 RIGHT  &trans  &trans     &kp UNDERSCORE  &kp TAB      &trans
+&trans  &kp Z       &kp X     &kp C     &kp V      &kp B        &kp UP_ARROW         &mt LANGUAGE_1 LANGUAGE_2  &kp N        &kp M   &kp COMMA  &kp DOT         &lt 4 MINUS  &trans
+&trans  &kp ESCAPE  &kp LGUI  &kp LALT  &kp LCTRL  &lt 1 SPACE  &mt LEFT_SHIFT DOWN  &lt 2 LEFT                 &lt 1 RIGHT  &trans  &trans     &kp UNDERSCORE  &kp TAB      &trans
             >;
         };
 
