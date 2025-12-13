@@ -10,7 +10,7 @@
         bt_clear {
             bindings = <&bt BT_CLR>;
             key-positions = <28 29>;
-            layers = <2>;
+            layers = <3>;
         };
     };
 
@@ -21,9 +21,9 @@
             bindings = <
 &trans  &trans      &trans    &trans    &trans     &trans                                                       &trans       &trans  &trans     &trans          &trans       &trans
 &trans  &kp Q       &kp W     &kp E     &kp R      &kp T                                                        &kp Y        &kp U   &kp I      &kp O           &kp P        &trans
-&trans  &kp A       &kp S     &kp D     &kp F      &kp G        &trans               &trans                     &kp H        &kp J   &kp K      &kp L           &lt 2 ENTER  &trans
-&trans  &kp Z       &kp X     &kp C     &kp V      &kp B        &kp UP_ARROW         &mt LANGUAGE_1 LANGUAGE_2  &kp N        &kp M   &kp COMMA  &kp DOT         &lt 3 MINUS  &trans
-&trans  &kp ESCAPE  &kp LGUI  &kp LALT  &kp LCTRL  &lt 1 SPACE  &mt LEFT_SHIFT DOWN  &lt 2 LEFT                 &lt 1 RIGHT  &trans  &trans     &kp UNDERSCORE  &kp TAB      &trans
+&trans  &kp A       &kp S     &kp D     &kp F      &kp G        &trans               &trans                     &kp H        &kp J   &kp K      &kp L           &lt 3 ENTER  &trans
+&trans  &kp Z       &kp X     &kp C     &kp V      &kp B        &kp UP_ARROW         &mt LANGUAGE_1 LANGUAGE_2  &kp N        &kp M   &kp COMMA  &kp DOT         &lt 2 MINUS  &trans
+&trans  &kp ESCAPE  &kp LGUI  &kp LALT  &kp LCTRL  &lt 1 SPACE  &mt LEFT_SHIFT DOWN  &lt 3 LEFT                 &lt 1 RIGHT  &trans  &trans     &kp UNDERSCORE  &kp TAB      &trans
             >;
         };
 
@@ -37,16 +37,6 @@
             >;
         };
 
-        MOUSE {
-            bindings = <
-&trans  &trans      &trans  &trans  &trans  &trans                           &trans       &trans          &trans          &trans           &trans         &trans
-&trans  &kp ESCAPE  &none   &none   &none   &none                            &kp ESCAPE   &kp RC(T)       &msc SCRL_DOWN  &kp RC(W)        &kp DEL        &trans
-&trans  &none       &none   &none   &none   &none   &trans  &trans           &kp TAB      &mkp LCLK       &mkp MCLK       &mkp RCLK        &kp BACKSPACE  &trans
-&trans  &none       &none   &none   &none   &none   &trans  &kp RC(RS(TAB))  &kp RC(TAB)  &msc SCRL_LEFT  &msc SCRL_UP    &msc SCRL_RIGHT  &trans         &trans
-&trans  &trans      &trans  &trans  &trans  &trans  &trans  &kp K_COPY       &kp K_PASTE  &trans          &trans          &trans           &trans         &trans
-            >;
-        };
-
         SYMBOL {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans            &trans                             &trans                               &trans               &trans         &trans
@@ -57,7 +47,17 @@
             >;
         };
 
-        layer_4 {
+        MOUSE {
+            bindings = <
+&trans  &trans      &trans  &trans  &trans  &trans                           &trans       &trans          &trans          &trans           &trans         &trans
+&trans  &kp ESCAPE  &none   &none   &none   &none                            &kp ESCAPE   &kp RC(T)       &msc SCRL_DOWN  &kp RC(W)        &kp DEL        &trans
+&trans  &none       &none   &none   &none   &none   &trans  &trans           &kp TAB      &mkp LCLK       &mkp MCLK       &mkp RCLK        &kp BACKSPACE  &trans
+&trans  &none       &none   &none   &none   &none   &trans  &kp RC(RS(TAB))  &kp RC(TAB)  &msc SCRL_LEFT  &msc SCRL_UP    &msc SCRL_RIGHT  &trans         &trans
+&trans  &trans      &trans  &trans  &trans  &trans  &trans  &kp K_COPY       &kp K_PASTE  &trans          &trans          &trans           &trans         &trans
+            >;
+        };
+
+        SHORTCUT {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
