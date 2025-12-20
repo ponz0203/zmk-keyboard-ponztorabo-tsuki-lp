@@ -19,11 +19,11 @@
 
         DEFAULT {
             bindings = <
-&trans  &trans      &trans    &trans    &trans     &trans                                                       &trans       &trans  &trans     &trans          &trans       &trans
-&trans  &kp Q       &kp W     &kp E     &kp R      &kp T                                                        &kp Y        &kp U   &kp I      &kp O           &kp P        &trans
-&trans  &kp A       &kp S     &kp D     &kp F      &kp G        &trans               &trans                     &kp H        &kp J   &kp K      &kp L           &lt 3 ENTER  &trans
-&trans  &kp Z       &kp X     &kp C     &kp V      &kp B        &kp UP_ARROW         &mt LANGUAGE_1 LANGUAGE_2  &kp N        &kp M   &kp COMMA  &kp DOT         &lt 4 MINUS  &trans
-&trans  &kp ESCAPE  &kp LGUI  &kp LALT  &kp LCTRL  &lt 1 SPACE  &mt LEFT_SHIFT DOWN  &lt 2 LEFT                 &lt 1 RIGHT  &trans  &trans     &kp UNDERSCORE  &kp TAB      &trans
+&trans  &trans      &trans    &trans    &trans                     &trans                                            &trans       &trans  &trans     &trans          &trans       &trans
+&trans  &kp Q       &kp W     &kp E     &kp R                      &kp T                                             &kp Y        &kp U   &kp I      &kp O           &kp P        &trans
+&trans  &kp A       &kp S     &kp D     &kp F                      &kp G        &trans                   &trans      &kp H        &kp J   &kp K      &kp L           &lt 3 ENTER  &trans
+&trans  &kp Z       &kp X     &kp C     &kp V                      &kp B        &mt LEFT_SHIFT UP_ARROW  &kp TAB     &kp N        &kp M   &kp COMMA  &kp DOT         &lt 4 MINUS  &trans
+&trans  &kp ESCAPE  &kp LGUI  &kp LALT  &mt LANGUAGE_1 LANGUAGE_2  &lt 1 SPACE  &mt LEFT_CONTROL DOWN    &lt 2 LEFT  &lt 1 RIGHT  &trans  &trans     &kp UNDERSCORE  &kp TAB      &trans
             >;
         };
 
@@ -39,21 +39,21 @@
 
         SYMBOL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans            &trans                             &trans                               &trans                    &trans         &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &none             &none                              &none                                &kp AT_SIGN               &kp DEL        &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT          &mt LEFT_BRACKET LEFT_PARENTHESIS  &mt RIGHT_BRACKET RIGHT_PARENTHESIS  &mt SEMICOLON COLON       &kp BACKSPACE  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp SINGLE_QUOTE  &kp DQT                            &kp GRAVE                            &mt EXCLAMATION QUESTION  &kp TILDE      &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans                             &trans                               &trans                    &trans         &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans                             &trans                               &trans         &trans                    &trans         &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &none                              &none                                &none          &kp AT_SIGN               &kp DEL        &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mt LEFT_BRACKET LEFT_PARENTHESIS  &mt RIGHT_BRACKET RIGHT_PARENTHESIS  &kp SEMICOLON  &kp COLON                 &kp BACKSPACE  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp SINGLE_QUOTE                   &kp DQT                              &kp GRAVE      &mt EXCLAMATION QUESTION  &kp TILDE      &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                             &trans                               &trans         &trans                    &trans         &trans
             >;
         };
 
         MOUSE {
             bindings = <
-&trans  &trans      &trans  &trans  &trans  &trans                              &trans             &trans          &trans          &trans           &trans         &trans
-&trans  &kp ESCAPE  &none   &none   &none   &none                               &kp ESCAPE         &msc SCRL_LEFT  &msc SCRL_UP    &msc SCRL_RIGHT  &kp DEL        &trans
-&trans  &none       &none   &none   &none   &none   &trans  &trans              &kp TAB            &mkp LCLK       &mkp MCLK       &mkp RCLK        &kp BACKSPACE  &trans
-&trans  &none       &none   &none   &none   &none   &trans  &msc SCRL_LEFT      &msc SCRL_RIGHT    &kp RC(T)       &msc SCRL_DOWN  &kp RC(W)        &trans         &trans
-&trans  &trans      &trans  &trans  &trans  &trans  &trans  &mt K_PASTE K_COPY  &mt K_REDO K_UNDO  &trans          &trans          &trans           &trans         &trans
+&trans  &trans      &trans  &trans  &trans  &trans                     &trans         &trans          &trans          &trans           &trans         &trans
+&trans  &kp ESCAPE  &none   &none   &none   &none                      &kp ESCAPE     &kp RC(T)       &msc SCRL_UP    &kp RC(RS(W))    &kp DEL        &trans
+&trans  &none       &none   &none   &none   &none   &trans  &trans     &kp TAB        &mkp LCLK       &mkp MCLK       &mkp RCLK        &kp BACKSPACE  &trans
+&trans  &none       &none   &none   &none   &none   &trans  &kp LC(Z)  &kp RC(RS(Z))  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans         &trans
+&trans  &trans      &trans  &trans  &trans  &trans  &trans  &kp RC(C)  &kp RC(V)      &trans          &trans          &trans           &trans         &trans
             >;
         };
 
