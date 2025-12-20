@@ -49,11 +49,11 @@
 
         MOUSE {
             bindings = <
-&trans  &trans      &trans  &trans  &trans  &trans                              &trans             &trans          &trans          &trans           &trans         &trans
-&trans  &kp ESCAPE  &none   &none   &none   &none                               &kp ESCAPE         &msc SCRL_LEFT  &msc SCRL_UP    &msc SCRL_RIGHT  &kp DEL        &trans
-&trans  &none       &none   &none   &none   &none   &trans  &trans              &kp TAB            &mkp LCLK       &mkp MCLK       &mkp RCLK        &kp BACKSPACE  &trans
-&trans  &none       &none   &none   &none   &none   &trans  &msc SCRL_LEFT      &msc SCRL_RIGHT    &kp RC(T)       &msc SCRL_DOWN  &kp RC(W)        &trans         &trans
-&trans  &trans      &trans  &trans  &trans  &trans  &trans  &mt K_PASTE K_COPY  &mt K_REDO K_UNDO  &trans          &trans          &trans           &trans         &trans
+&trans  &trans      &trans  &trans  &trans  &trans                     &trans         &trans          &trans          &trans           &trans         &trans
+&trans  &kp ESCAPE  &none   &none   &none   &none                      &kp ESCAPE     &kp RC(T)       &msc SCRL_UP    &kp RC(RS(W))    &kp DEL        &trans
+&trans  &none       &none   &none   &none   &none   &trans  &trans     &kp TAB        &mkp LCLK       &mkp MCLK       &mkp RCLK        &kp BACKSPACE  &trans
+&trans  &none       &none   &none   &none   &none   &trans  &kp LC(Z)  &kp RC(RS(Z))  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans         &trans
+&trans  &trans      &trans  &trans  &trans  &trans  &trans  &kp RC(C)  &kp RC(V)      &trans          &trans          &trans           &trans         &trans
             >;
         };
 
