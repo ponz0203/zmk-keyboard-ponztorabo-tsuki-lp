@@ -50,7 +50,7 @@
         MOUSE {
             bindings = <
 &trans  &trans      &trans  &trans  &trans  &trans                     &trans         &trans          &trans          &trans           &trans         &trans
-&trans  &kp ESCAPE  &none   &none   &none   &none                      &kp RC(R)      &kp RC(T)       &msc SCRL_UP    &kp RC(RS(W))    &kp DEL        &trans
+&trans  &kp ESCAPE  &none   &none   &none   &none                      &kp RC(R)      &kp RC(T)       &msc SCRL_UP    &kp RC(W)        &kp DEL        &trans
 &trans  &none       &none   &none   &none   &none   &trans  &trans     &kp TAB        &mkp LCLK       &mkp MCLK       &mkp RCLK        &kp BACKSPACE  &trans
 &trans  &none       &none   &none   &none   &none   &trans  &kp LC(Z)  &kp RC(RS(Z))  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans         &trans
 &trans  &trans      &trans  &trans  &trans  &trans  &trans  &kp RC(C)  &kp RC(V)      &trans          &trans          &trans           &trans         &trans
@@ -59,11 +59,11 @@
 
         SHORTCUT {
             bindings = <
-&trans  &trans      &trans  &trans  &trans  &trans                  &trans  &trans              &trans              &trans         &trans  &trans
-&trans  &trans      &trans  &trans  &trans  &trans                  &trans  &trans              &kp RG(UP_ARROW)    &trans         &trans  &trans
-&trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RG(LEFT_ARROW)  &kp RG(TAB)         &kp RG(RIGHT)  &trans  &trans
-&trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans              &kp RG(DOWN_ARROW)  &trans         &trans  &trans
-&trans  &bt BT_CLR  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans              &trans              &trans         &trans  &trans
+&trans  &trans      &trans  &trans  &trans  &trans                  &trans  &trans              &trans              &trans                   &trans  &trans
+&trans  &trans      &trans  &trans  &trans  &trans                  &trans  &kp LC(LG(LEFT))    &kp RG(UP_ARROW)    &kp RC(RG(RIGHT_ARROW))  &trans  &trans
+&trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RG(LEFT_ARROW)  &kp RG(TAB)         &kp RG(RIGHT)            &trans  &trans
+&trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RG(TAB)         &kp RG(DOWN_ARROW)  &kp RS(RC(W))            &trans  &trans
+&trans  &bt BT_CLR  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans              &trans              &trans                   &trans  &trans
             >;
         };
     };
