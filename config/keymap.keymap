@@ -62,7 +62,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans                           &trans       &trans              &trans              &trans                   &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                           &trans       &kp LC(LG(LEFT))    &kp RG(UP_ARROW)    &kp RC(RG(RIGHT_ARROW))  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans           &trans       &kp RG(LEFT_ARROW)  &kp RG(TAB)         &kp RG(RIGHT)            &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans           &trans       &kp RG(TAB)         &kp RG(DOWN_ARROW)  &kp RS(RC(W))            &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans           &trans       &kp LG(LC(LEFT))    &kp RG(DOWN_ARROW)  &kp LG(LC(RIGHT_ARROW))  &trans  &trans
 &trans  &none   &trans  &trans  &trans  &trans  &trans  &kp RC(RS(TAB))  &kp RC(TAB)  &trans              &trans              &trans                   &trans  &trans
             >;
         };
