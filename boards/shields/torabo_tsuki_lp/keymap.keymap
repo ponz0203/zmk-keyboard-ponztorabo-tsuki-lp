@@ -32,7 +32,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans                     &trans               &trans        &trans        &trans        &trans         &trans
 &trans  &trans  &trans  &trans  &trans  &trans                     &none                &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp DELETE     &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &mt SEMICOLON COLON  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp BACKSPACE  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp EQUAL  &kp NUMBER_0         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH      &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp EQUAL  &kp NUMBER_0         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp RC(SLASH)  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans               &trans        &trans        &kp COMMA     &kp PERIOD     &trans
             >;
         };
@@ -49,11 +49,11 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                               &trans                        &trans          &trans          &trans           &trans  &trans
-&trans  &none   &none   &none   &none   &none                                &kp RC(R)                     &kp RC(T)       &msc SCRL_UP    &kp RC(W)        &trans  &trans
-&trans  &none   &none   &none   &none   &none   &trans  &trans               &kp TAB                       &mkp LCLK       &mkp MCLK       &mkp RCLK        &trans  &trans
-&trans  &none   &none   &none   &none   &none   &trans  &mt LC(LS(Z)) RC(Z)  &mt RA(RIGHT_ARROW) RA(LEFT)  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RC(C)            &kp RC(V)                     &trans          &trans          &trans           &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                               &trans                        &trans           &trans          &trans           &trans  &trans
+&trans  &none   &none   &none   &none   &none                                &kp RC(T)                     &kp RC(RS(TAB))  &msc SCRL_UP    &kp RC(TAB)      &trans  &trans
+&trans  &none   &none   &none   &none   &none   &trans  &trans               &kp RC(W)                     &mkp LCLK        &mkp MCLK       &mkp RCLK        &trans  &trans
+&trans  &none   &none   &none   &none   &none   &trans  &mt LC(LS(Z)) RC(Z)  &mt RA(RIGHT_ARROW) RA(LEFT)  &msc SCRL_LEFT   &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RC(C)            &kp RC(V)                     &trans           &trans          &trans           &trans  &trans
             >;
         };
 
