@@ -14,6 +14,19 @@
         };
     };
 
+    behaviors {
+        new_behavior: new_behavior {
+            compatible = "zmk,behavior-input-two-axis";
+            label = "NEW_BEHAVIOR";
+            #binding-cells = <1>;
+            x-input-code = <9>;
+            y-input-code = <8>;
+            trigger-period-ms = <16>;
+            time-to-max-speed-ms = <300>;
+            acceleration-exponent = <1>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -49,11 +62,11 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                               &trans                        &trans           &trans          &trans           &trans  &trans
-&trans  &none   &none   &none   &none   &none                                &kp RC(T)                     &kp RC(RS(TAB))  &msc SCRL_UP    &kp RC(TAB)      &trans  &trans
-&trans  &none   &none   &none   &none   &none   &trans  &trans               &kp RC(W)                     &mkp LCLK        &mkp MCLK       &mkp RCLK        &trans  &trans
-&trans  &none   &none   &none   &none   &none   &trans  &mt LC(LS(Z)) RC(Z)  &mt RA(RIGHT_ARROW) RA(LEFT)  &msc SCRL_LEFT   &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RC(C)            &kp RC(V)                     &trans           &trans          &trans           &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                     &trans                  &trans              &trans           &trans               &trans  &trans
+&trans  &none   &none   &none   &none   &none                      &mt RG(PLUS) RG(MINUS)  &kp RC(RS(TAB))     &msc MOVE_Y(10)  &kp RC(TAB)          &trans  &trans
+&trans  &none   &none   &none   &none   &none   &trans  &trans     &mt RC(RS(Z)) RC(Z)     &mkp LCLK           &mkp MCLK        &mkp RCLK            &trans  &trans
+&trans  &none   &none   &none   &none   &none   &trans  &kp RC(T)  &kp RC(W)               &kp RA(LEFT_ARROW)  &msc MOVE_X(10)  &kp RA(RIGHT_ARROW)  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RC(C)  &mt RG(V) RC(V)         &trans              &trans           &kp RC(R)            &trans  &trans
             >;
         };
 
