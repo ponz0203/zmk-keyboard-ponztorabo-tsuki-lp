@@ -56,7 +56,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans                  &none                              &none                                &none          &kp AT_SIGN               &kp AT_SIGN    &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mt LEFT_BRACKET LEFT_PARENTHESIS  &mt RIGHT_BRACKET RIGHT_PARENTHESIS  &kp SEMICOLON  &kp COLON                 &kp BACKSPACE  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp SINGLE_QUOTE                   &kp DQT                              &kp GRAVE      &mt EXCLAMATION QUESTION  &kp SLASH      &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                             &trans                               &trans         &trans                    &trans         &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                             &trans                               &trans         &kp UNDERSCORE            &trans         &trans
             >;
         };
 
