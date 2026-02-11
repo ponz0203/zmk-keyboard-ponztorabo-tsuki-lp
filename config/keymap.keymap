@@ -52,11 +52,11 @@
 
         SYMBOL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans                             &trans                               &trans         &trans                    &trans         &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &none                              &none                                &none          &kp AT_SIGN               &kp AT_SIGN    &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mt LEFT_BRACKET LEFT_PARENTHESIS  &mt RIGHT_BRACKET RIGHT_PARENTHESIS  &kp SEMICOLON  &kp COLON                 &kp BACKSPACE  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp SINGLE_QUOTE                   &kp DQT                              &kp GRAVE      &mt EXCLAMATION QUESTION  &kp SLASH      &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                             &trans                               &trans         &kp UNDERSCORE            &trans         &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans            &trans                             &trans                               &trans                    &trans         &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &none             &none                              &none                                &kp AT_SIGN               &kp DELETE     &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &none             &mt LEFT_BRACKET LEFT_PARENTHESIS  &mt RIGHT_BRACKET RIGHT_PARENTHESIS  &mt SEMICOLON COLON       &kp BACKSPACE  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &none   &kp SINGLE_QUOTE  &kp DQT                            &kp UNDER                            &mt EXCLAMATION QUESTION  &kp SLASH      &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans                             &trans                               &none                     &none          &trans
             >;
         };
 
@@ -72,11 +72,11 @@
 
         SHORTCUT {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                           &trans       &trans              &trans              &trans                   &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                           &trans       &kp LC(LG(LEFT))    &kp RG(UP_ARROW)    &kp RC(RG(RIGHT_ARROW))  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans           &trans       &kp RG(LEFT_ARROW)  &kp RG(TAB)         &kp RG(RIGHT)            &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans           &trans       &kp LG(LC(LEFT))    &kp RG(DOWN_ARROW)  &kp LG(LC(RIGHT_ARROW))  &trans  &trans
-&trans  &none   &trans  &trans  &trans  &trans  &trans  &kp RC(RS(TAB))  &kp RC(TAB)  &trans              &trans              &trans                   &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                  &trans             &trans              &trans              &trans         &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                  &none              &none               &kp RG(UP_ARROW)    &none          &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                  &none              &kp RG(LEFT_ARROW)  &kp RG(TAB)         &kp RG(RIGHT)  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &none                   &none              &none               &kp RG(DOWN_ARROW)  &none          &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LC(LG(LEFT_ARROW))  &kp RG(RC(RIGHT))  &trans              &trans              &trans         &trans  &trans
             >;
         };
 
