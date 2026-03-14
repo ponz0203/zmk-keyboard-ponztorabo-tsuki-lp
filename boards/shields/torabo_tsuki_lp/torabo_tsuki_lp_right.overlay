@@ -3,7 +3,7 @@
 #include <dt-bindings/zmk/input_transform.h>
 
 &trackball {
-    input-processors = <&zip_xy_transform (INPUT_TRANSFORM_XY_SWAP)>;
+    input-processors = <&zip_xy_transform (INPUT_TRANSFORM_ROTATE_90)>;
 };
 
 &size_s_transform {
