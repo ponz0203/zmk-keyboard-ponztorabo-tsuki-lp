@@ -1,6 +1,0 @@
-/ {
-    trackball {
-        swap-xy;
-        invert-y;
-    };
-};
